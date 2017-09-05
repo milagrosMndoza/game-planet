@@ -1,0 +1,36 @@
+/* Background */
+.bg-verde{
+    background-color: #0f380f;
+}
+
+.bg-gris{
+    background-color: #aaaaaa;
+}
+
+.bg-verde-claro{
+    background-color: #8bac0f;
+}
+
+/* Letters */
+.letter-verde{
+    color: #0f380f;
+}
+
+.letter-gris{
+    color: #aaaaaa;
+}
+
+.letter-verde-claro{
+    color: #8bac0f;
+}
+
+/* Fonts */
+
+.font1{
+    font-family: 'Comfortaa', cursive;
+}
+
+.font2{
+    font-family: 'Ruslan Display', cursive;
+}
+
