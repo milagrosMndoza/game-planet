@@ -1,8 +1,8 @@
 #catalogo .row
 {
-    margin: 30px;
+    margin: 40px;
 }
-#catalogo .div-img img
+.div-img img 
 {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -21,16 +21,9 @@
     -ms-transition: all 500ms ease-in-out;
     -o-transition: all 500ms ease-in-out;
 }
-.div-img:hover img
+.div-img .text 
 {
-    transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    -moz-transform: scale(0.8);
-    -webkit-transform: scale(0.8);
-    -o-transform: scale(0.8);
-}
-.div-img .text
-{
+    font-family: 'Open Sans';
     padding-top: 5px;
     display: block;
     text-align: center;
@@ -43,7 +36,15 @@
     opacity: 0;
     transition: transfom opacity 1.5s;
 }
-.div-img:hover .text
+.div-img:hover img 
+{
+    transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+}
+.div-img:hover .text 
 {
     transform: translate(0px, -20px);
     opacity: 1;
