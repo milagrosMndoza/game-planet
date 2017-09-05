@@ -1,0 +1,21 @@
+body {
+    position: relative;
+}
+
+nav {
+    color: white !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a{
+    background-color: #8bac0f !important;
+    
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-brand{
+    color: white;
+}
+
+.navbar-nav{
+    font-size: 1.2em;
+}
