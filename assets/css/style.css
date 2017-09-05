@@ -1,6 +1,26 @@
-/**{
-	outline: 1px solid red;
-}*/
+/* General */
+body {
+    position: relative;
+}
+/* Nav */
+nav {
+    color: white !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a{
+    background-color: #8bac0f !important;
+    
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-brand{
+    color: white;
+}
+
+.navbar-nav{
+    font-size: 1.2em;
+}
+/* Portada */
 #texto1{
 	color: white;
 	font-size: 1000%;
@@ -42,3 +62,4 @@
 	margin-top: 150px;
 	padding-bottom: 140px;
 }
+

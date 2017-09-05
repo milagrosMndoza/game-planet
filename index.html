@@ -12,29 +12,34 @@
     <link rel="stylesheet" href="assets/css/common.css">
 </head>
 
-<body>
-
-    <!-- Sección Portadaa-->
-<!-- <header>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="assets/img-portada/nin1.gif">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- Sección Portada-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>                        
+                            </button>
+                <a class="navbar-brand" href="#">
+                    <div id="logo">
+                        <div class="t-1 stop"></div>
+                        <div class="t-2 stop"></div>
+                        <div class="t-3"></div>
+                    </div>
+                    Game Planet</a>
             </div>
-            <div class="col-md-6">
-                <img src="assets/img-portada/nin3.gif">
+            <div>
+                <div class="collapse navbar-collapse pull-right" id="myNavbar">
+                    <ul class="nav navbar-nav pull-rigth">
+                        <li><a href="#catalogo" class="font2 "><i class="fa fa-book" aria-hidden="true"></i> CATÁLOGO</a></li>
+                        <li><a href="#contact" class="font2 "><i class="fa fa-comments" aria-hidden="true"></i> CONTACT US </a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-         <div class="row">
-            <div class="col-md-6">
-                <img src="assets/img-portada/nin4.jpg">
-            </div>
-            <div class="col-md-6">
-                <img src="assets/img-portada/nin2.gif">
-            </div>
-        </div>
-    </div>
-</header> -->
+    </nav>
 <section class="first">
     <div class="container container-fluid text-center primerdiv">
         <div class="mapa">
@@ -58,7 +63,27 @@
         </div>
     </div>
 </section>
+
     <!-- Sección Catálogo -->
+    <section id="catalogo">
+        <div class="container">
+            <h1 class="font2">Catálogo</h1>
+            <div class="row">
+                <div class="col-md-4 div-img">
+                    <img src="assets/img-catalogo/Nintendo_Switch_Console.png" class="img-responsive" alt="">
+                    <div class="text">Nintendo Switch picture</div>
+                </div>
+                <div class="col-md-4 div-img">
+                    <img src="assets/img-catalogo/playstation-4-slim.png" class="img-responsive" alt="">
+                    <div class="text">Playstation 4</div>
+                </div>
+                <div class="col-md-4 div-img">
+                    <img src="assets/img-catalogo/Xbox-one.png" class="img-responsive" alt="">
+                    <div class="text">Xbox One</div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Sección Contact -->
     <!-- Footer -->
 
@@ -67,5 +92,5 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/4154d90246.js"></script>
 </body>
-
 </html>
+
