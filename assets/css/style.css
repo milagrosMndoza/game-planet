@@ -1,7 +1,8 @@
+/* General */
 body {
     position: relative;
 }
-
+/* Nav */
 nav {
     color: white !important;
 }
@@ -19,3 +20,46 @@ nav {
 .navbar-nav{
     font-size: 1.2em;
 }
+/* Portada */
+#texto1{
+	color: white;
+	font-size: 1000%;
+}
+
+.first{
+	background-image: url(../img-portada/nin3.gif);
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+	height: 800px;
+
+}
+
+.mapa{
+	margin-top: 50px;
+	background-color:rgba(93,109,126,0.6);
+	padding-top: 150px;
+	padding-bottom: 15px;
+	padding-right: 30px;
+	width: 100%;
+}
+
+.img2{
+	padding-top: 20px;
+}
+
+.img3{
+	padding-top: 30px;
+}
+
+.logos{
+	margin-top: 150px;
+	padding-bottom: 140px;
+}
+
