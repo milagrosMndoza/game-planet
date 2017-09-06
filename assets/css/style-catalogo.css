@@ -149,3 +149,7 @@ input[type=number]::-webkit-outer-spin-button
 {
       display: none;
 }
+
+.img-promo{
+    margin: 0 auto;
+}
