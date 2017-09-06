@@ -174,7 +174,12 @@ nav {
     background-image: url(../img_portada/mario.gif);
 }
 
-/* Diana */
+
+/*Seccion formulario*/
+#success_message{ display: none;}
+#formulario{
+background-image: url(../img-portada/mario.gif);
+
 
 .modal {
     display: none; /* Hidden by default */

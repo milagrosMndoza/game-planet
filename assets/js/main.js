@@ -70,10 +70,10 @@ ver();
                       stringLength: {
                         min: 10,
                         max: 200,
-                        message:'Please enter at least 10 characters and no more than 200'
+                        message:'Por favor ingrese al menos 10 caracteres y no más de 200!'
                     },
                     notEmpty: {
-                        message: 'Please supply a description of your project'
+                        message: 'Escriba un mensaje de su consulta'
                     }
                     }
                 }
@@ -98,6 +98,7 @@ ver();
             }, 'json');
         });
 });
+
 
 var modal = document.getElementById('myModal');
 var btn = document.getElementById("myBtn");
