@@ -1,7 +1,12 @@
 /* General */
+*{
+    box-sizing: border-box;
+}
+
 body {
     position: relative;
 }
+
 /* Nav */
 nav {
     color: white !important;
@@ -77,7 +82,7 @@ nav {
 	padding-bottom: 140px;
 }
 
-/*DianaQuispe*/
+/*Footer*/
 footer {
     margin-left: 0 auto;
     font-family: 'Source Sans Pro', sans-serif;
