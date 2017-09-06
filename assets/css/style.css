@@ -1,9 +1,36 @@
-/**{
-	outline: 1px solid red;
-}*/
+/* General */
+body {
+    position: relative;
+}
+/* Nav */
+nav {
+    color: white !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a{
+    background-color: #8bac0f !important;
+    
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-brand{
+    color: white;
+}
+
+.navbar-nav{
+    font-size: 1.2em;
+}
+/* Portada */
+/* Texto */
 #texto1{
 	color: white;
 	font-size: 1000%;
+}
+
+/* Line */
+.raya{
+	border: 8px solid white;
+	width: 80%;
 }
 
 .first{
@@ -18,7 +45,6 @@
 	background-size: cover;
 	margin: 0 auto;
 	height: 800px;
-
 }
 
 .mapa{
@@ -29,7 +55,6 @@
 	padding-right: 30px;
 	width: 100%;
 }
-
 
 #texto1:hover {
 	filter: opacity(.5);
@@ -52,8 +77,3 @@
 	padding-bottom: 140px;
 }
 
-.raya{
-	border-style: dotted solid dashed;
-	border: 8px solid white;
-	width: 80%;
-}

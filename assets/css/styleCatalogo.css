@@ -1,0 +1,36 @@
+/*GLOBALES*/
+*{
+	box-sizing: border-box;
+
+	outline:1px solid black;
+}
+
+/*SECCION CATALOGO*/
+#imagenes{
+    background: url(../img-catalogo/xbox.gif) bottom right no-repeat, 
+    url(../img-catalogo/psfont.gif) bottom center no-repeat, 
+    url(../img-catalogo/nin2.gif) bottom left no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#fondo-blanco{
+	background-color: rgba(255,255,255,0.3);
+}
+
+#slider-bar {
+      width: 100%;
+      height: ;
+      border: 15px solid #EEEEEE;
+      margin: 50px auto;
+      background-color: white;}
+
+#slider-bar img {
+      border: 1px solid #F7F7F7;
+      width: 100px;
+      float: left;
+      margin: 15px 0 15px 15px;}
+
+#slider-bar img:last-child {
+      display: none;}
