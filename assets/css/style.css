@@ -21,9 +21,16 @@ nav {
     font-size: 1.2em;
 }
 /* Portada */
+/* Texto */
 #texto1{
 	color: white;
 	font-size: 1000%;
+}
+
+/* Line */
+.raya{
+	border: 8px solid white;
+	width: 80%;
 }
 
 .first{
@@ -38,7 +45,6 @@ nav {
 	background-size: cover;
 	margin: 0 auto;
 	height: 800px;
-
 }
 
 .mapa{
@@ -50,8 +56,16 @@ nav {
 	width: 100%;
 }
 
+#texto1:hover {
+	filter: opacity(.5);
+}
+
 .img2{
 	padding-top: 20px;
+}
+
+.img2:hover, .img3:hover, .img1:hover{
+	filter: blur(5px);
 }
 
 .img3{
