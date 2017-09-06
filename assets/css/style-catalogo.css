@@ -109,11 +109,28 @@
 #xb{
 
 }
-
-#video{
+/*Fondos modal*/
+#fondoX{
     background-image: url('../img-catalogo/modal/xbox.jpg');
+    background-size: 100%;
 }
 
+#fondoP{
+    background-image: url('../img-catalogo/modal/ps4.jpg');
+    background-size: 100%;
+}
+#fondoN{
+    background-image: url('../img-catalogo/modal/FondoN.png');
+    background-size: 100%;
+}
+
+/*Venta*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+
+   opacity: 1;
+
+}
 /*Scroll bar*/
 .fondo::-webkit-scrollbar-track
 {
