@@ -30,8 +30,17 @@
 	width: 100%;
 }
 
+
+#texto1:hover {
+	filter: opacity(.5);
+}
+
 .img2{
 	padding-top: 20px;
+}
+
+.img2:hover, .img3:hover, .img1:hover{
+	filter: blur(5px);
 }
 
 .img3{
@@ -41,4 +50,10 @@
 .logos{
 	margin-top: 150px;
 	padding-bottom: 140px;
+}
+
+.raya{
+	border-style: dotted solid dashed;
+	border: 8px solid white;
+	width: 80%;
 }
