@@ -136,6 +136,12 @@ nav {
 	transform: scale(1.1,1.1) ;
 }
 
+/*Seccion formulario*/
+#success_message{ display: none;}
+#formulario{
+background-image: url(../img_portada/mario.gif);
+
+}
 
 /*Footer*/
 footer {
