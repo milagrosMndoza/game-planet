@@ -15,32 +15,38 @@ var arrayProveedores = [$('#nint'),$('#ps4'),$('#xbox')];
 /*FUNCIONES MODAL*/
 function modalX(){
   $('#modal-xbox').show();
-  $('#modal-xbox').addClass('fondo');   
+  $('#modal-xbox').addClass('fondo');
+  $('body').css("overflow", "hidden");
 }
 
 function endX(){
   $('#modal-xbox').removeClass('fondo'); 
   $('#modal-xbox').hide();
+  $('body').css("overflow-y", "scroll");
 }
 
 function modalP(){
   $('#modal-ps4').show();
-  $('#modal-ps4').addClass('fondo');   
+  $('#modal-ps4').addClass('fondo');
+  $('body').css("overflow", "hidden");
 }
 
 function endP(){
   $('#modal-ps4').removeClass('fondo'); 
   $('#modal-ps4').hide();
+  $('body').css("overflow-y", "scroll");
 }
 
 function modalN(){
   $('#modal-nint').show();
-  $('#modal-nint').addClass('fondo');   
+  $('#modal-nint').addClass('fondo');
+  $('body').css("overflow", "hidden");
 }
 
 function endN(){
   $('#modal-nint').removeClass('fondo'); 
   $('#modal-nint').hide();
+  $('body').css("overflow-y", "scroll");
 }
 
 
